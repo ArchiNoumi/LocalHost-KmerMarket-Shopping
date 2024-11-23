@@ -1,0 +1,38 @@
+
+
+#conclu{
+	height: 27px;
+	
+}
+#conclusion, #conclusion1, #conclusion2
+{
+	font-family: calibri;
+	font-size: 1.2em;
+	color: whitesmoke;
+	font-weight: bolder;
+	background-color: rgb(54, 182, 46);
+	text-align: center;
+	padding-left : 2%;
+	padding-right: 2%;
+	
+
+}
+
+.alert
+{
+	display: none;
+	color: rebeccapurple;
+	font-weight: bold;
+	font-size: 1.0em;
+}
+
+@media screen and (min-width: 100px) and (max-width: 1400px) {
+	
+	
+}
+
+@media screen and (min-width: 100px) and (max-width: 1200px) {
+
+
+}
+

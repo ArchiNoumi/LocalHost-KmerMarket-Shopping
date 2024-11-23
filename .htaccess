@@ -1,0 +1,18 @@
+# 1 ---- Establish a custom 404 File not Found page ---------
+RewriteEngine On
+ErrorDocument 400 /errors/400BadRequest.php
+ErrorDocument 403 /errors/403Forbiden.php
+ErrorDocument 404 localhost/errors/404FileNotFound.php
+ErrorDocument 500 /errors/500InternalServerError.php
+
+
+# 2----- Prevent directory file listing in all of your files
+
+IndexIgnore *
+
+#Redirection code starts
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+#Redirection code Ends
+

@@ -1,0 +1,394 @@
+html
+{
+	height: 100%;
+}
+
+body
+{
+	max-width: 100%;
+	height: 100%;
+	background: url('../img/w1.jpg');
+	background-size: cover;
+	/*background-repeat: no-repeat;*/
+}
+
+header
+{
+	background-color:rgba(255,255,255,0.9);
+}
+
+div.col-xs-12.col-sm-4.col-md-4.col-lg-4.texte_annonce
+{
+	background-color:rgba(255,255,255,0.9);
+	width: 25%;
+}
+.sub_header
+{
+	margin-top: 60px;
+	padding-left: 5%;
+	
+	
+}
+
+.sub_header a
+{
+	width: 50%;
+}
+
+
+.image_1
+{
+	margin-top: 10px;
+	margin-bottom: 10px;	
+	
+}
+.grande_image, .petite_image, .texte_annonce
+{
+	width: 100%;
+}
+
+.petite_image img, .grande_image img, .sub_header a, .texte_annonce .les_boutons a, .texte_annonce .les_boutons button
+{
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		margin-bottom: 5px;
+}
+
+
+/*Texte annonce dawg*/
+.texte_annonce
+{
+	padding-left: 1%;
+	padding-right: 2%;
+	text-align: left;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+	text-align: center;
+	overflow: auto;
+}
+.texte_annonce h1, p, h3
+{
+	font-family: arial;
+	font-family: Helvetica, futura, myriad;
+}
+.texte_annonce h1
+{
+	font-size: 1.5em;
+	line-height: 1em;
+	font-weight: bolder;
+}
+
+.texte_annonce h3
+{
+	font-size: 1.3em;
+	line-height: 0.2em;
+	font-weight: bolder;
+	color: green;
+}
+
+.texte_annonce p
+{
+	font-size: 1.2em;
+	line-height: 1em;
+}
+
+
+.special
+{
+	color: brown;
+	font-weight: bolder;
+}
+
+.texte_annonce  .les_boutons button , .texte_annonce .les_boutons a
+	{
+		text-align: center;
+	}
+
+@media screen and (min-width: 0px) and (max-width: 319px) {
+	
+	body
+	{
+		height: 850px;
+	}
+	
+	.petite_image img
+	{
+		width: 30px;
+		height: 30px;
+	}
+	
+	.grande_image img
+	{
+		width: 100px;
+		height: auto;
+	}
+	div.col-xs-12.col-sm-4.col-md-4.col-lg-4.texte_annonce
+	{
+		margin-left: 10%;
+		width: 80%;
+		height: auto;
+	
+	}
+	
+	.texte_annonce  .les_boutons button , .texte_annonce .les_boutons a
+	{
+		width: 85px;
+		margin-left: 27px;
+	}
+	
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	
+	body
+	{
+		height: 3000px;
+	}
+	
+	.petite_image img
+	{
+		width: 50px;
+		height: 50px;
+	}
+	
+	.grande_image img
+	{
+		width: 200px;
+		height: auto;
+	}
+	
+	div.col-xs-12.col-sm-4.col-md-4.col-lg-4.texte_annonce
+	{
+		margin-left: 10%;
+		width: 80%;
+		height: auto;
+	
+	}
+	.texte_annonce  .les_boutons button , .texte_annonce .les_boutons a
+	{
+		width: 20%;
+		margin-left: 10%;
+	}
+	
+}
+
+/* col-sm*/
+@media screen and (min-width: 768px) and (max-width: 921px) {
+		body
+		{
+			height: 3000px;
+		}
+
+	
+	.sub_header a
+	{
+		width: 20%;
+	}
+	.allIn
+	{
+		margin-top: 20px;
+		width: 850px;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.image_1, .grande_image, .texte_annonce
+	{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	
+	.image_1
+	{
+		width: 100px;
+	}
+	
+	.grande_image
+	{
+		width:  350px;
+	}
+	
+	div.col-xs-12.col-sm-4.col-md-4.col-lg-4.texte_annonce
+	{
+		width: 400px;
+		
+		height: 300px;
+	}
+	
+	.petite_image img
+	{
+		width: 75px;
+		height: 75px;
+		margin-top: 13px;
+	}
+	
+	.grande_image img
+	{
+		width: 300px;
+		height: auto;
+	}
+	
+	.texte_annonce  .les_boutons button , .texte_annonce .les_boutons a
+	{
+		width: 32%;
+		margin-left: 1%;
+	}
+}
+
+/* col-md*/
+@media screen and (min-width: 922px) and (max-width: 1199px) {
+		body
+	{
+		height: 3000px;
+	}
+	
+	.sub_header a
+	{
+		width: 20%;
+	}
+	
+	.allIn
+	{
+		margin-top: 20px;
+		width: 1000px;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.image_1, .grande_image, .texte_annonce
+	{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	
+	.image_1
+	{
+		width: 150px;
+	}
+	
+	.grande_image
+	{
+		width:  450px;
+	}
+	
+	div.col-xs-12.col-sm-6.col-md-6.col-lg-6.texte_annonce.grande_image
+	{
+		margin-right: 0;
+		width: 600px;
+	}
+
+	div.col-xs-12.col-sm-4.col-md-4.col-lg-4.texte_annonce
+	{
+		width: 400px;
+		height: 400px;
+	}
+	
+	.petite_image img
+	{
+		width: 90px;
+		height: 90px;
+		margin-top: 27px;
+	}
+	
+	.grande_image img
+	{
+		width: 400px;
+		height: auto;;
+	}
+	
+	.texte_annonce  .les_boutons button , .texte_annonce .les_boutons a
+	{
+		width: 32%;
+		margin-left: 1%;
+	}
+}
+
+/* col-lg*/
+@media screen and (min-width: 1200px) and (max-width: 2000px) {
+	
+	body
+	{
+		height: 3000px;
+	}
+	
+	.sub_header a
+	{
+		width: 10%;
+	}
+	
+	.allIn
+	{
+		margin-top: 20px;
+		width: 1500px;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.image_1, .grande_image, .texte_annonce
+	{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	
+	.image_1
+	{
+		width: 200px;
+	}
+	
+	.grande_image
+	{
+		width:  800px;
+	}
+	
+	div.col-xs-12.col-sm-4.col-md-4.col-lg-4.texte_annonce
+	{
+		width: 400px;
+		height: 600px;
+	}
+	
+	.petite_image img
+	{
+		width: 150px;
+		height: 150px;
+		margin-top: 27.5px;
+	}
+	
+	.grande_image img
+	{
+		width: 600px;
+		height: auto;
+	}
+	
+	.texte_annonce h1
+{
+	font-size: 2em;
+	line-height: 1em;
+	font-weight: bolder;
+}
+
+.texte_annonce h3
+{
+	font-size: 1.5em;
+	line-height: 0.4em;
+	font-weight: bolder;
+	color: green;
+}
+
+.texte_annonce p
+{
+	font-size: 1.5em;
+	line-height: 1.1em;
+}
+
+	.texte_annonce  .les_boutons button , .texte_annonce .les_boutons a
+	{
+		width: 25%;
+		margin-left: 1%;
+	}
+}

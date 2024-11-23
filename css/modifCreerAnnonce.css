@@ -1,0 +1,52 @@
+﻿body{
+	/*background: hotpink;*/
+	/*text-align: center;*/
+	
+	
+	padding-bottom: 0;
+	height: 100%;	
+	background-color: #fff;
+	
+	
+}
+
+#annonce
+{
+padding-top: 2%;
+		width: 90% !important;		
+		margin:  auto;
+		text-align: center;
+		margin-bottom: 10%;
+}
+
+
+
+div#iim1, div#iim2, div#iim3
+{
+	text-align: left;
+	padding: auto;
+}
+
+.modal-body
+{
+	text-align: center;
+}
+
+#myModalLabel  {
+	text-align: center;
+		
+}
+
+@media screen and (min-width: 100px) and (max-width: 1400px) {
+	
+  
+}
+
+@media screen and (min-width: 100px) and (max-width: 899px) {
+
+	body{
+		padding-bottom: 60px;
+	}
+
+}
+

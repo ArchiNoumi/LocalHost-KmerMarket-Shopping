@@ -1,0 +1,162 @@
+body
+{
+	height: 1000px;
+	/*max-height: 1500px;*/
+	margin:0;
+	padding-top: 0;
+	max-height: 2000px;
+	background: url('../img/trial1.jpg');
+	background-size: cover;
+	background-repeat: repeat;
+}
+
+header h1
+{
+	font-family: Euphemia, "Monotype Corsiva" ;
+	color:rgba(1,255,2,1);
+	background-color: rgba(0,0,0,0.66);
+	font-weight: bolder;
+}
+
+header h1
+	{
+		font-size: 33px;
+		margin-top: 1%;
+	}
+header{
+	/* top: 0; */
+	margin-bottom: 1%;
+	/* position: fixed; */
+	height: 150px;
+	width: 100%;
+	padding-left: 20%;
+	padding-right: 20%;
+	text-align: center;
+	font-size: 0.9em;
+	background-color: rgba(255,255,255,0.1);
+}
+
+header img
+{
+	
+	height: 55%;	
+	margin-top: 1%;
+}
+
+#inscription
+{
+	font-weight: bolder;
+	color: green;
+	font-size: 1.2em;
+}
+
+
+
+#super_connecte, #super_connecte_social
+{
+	margin: 0 auto;
+	width: 550px;
+	padding-right: 1%;
+	padding-left: 1%;
+	padding-top: 1%;
+	height: 270px;
+	background-color: rgba(3,3,3,0.4);
+	text-align: center;
+	margin-top: 10px;
+	color: white;
+}
+
+#super_connecte_social
+{
+	
+	padding-right: 10%;
+	padding-left: 10%;
+	height: 200px;
+	margin-top: 10px;
+	
+}
+
+a#inscription, button#envoyer_bouton
+{
+	font-weight: bolder;
+	color:white;
+}
+
+a#mdp_oublie
+{
+	font-weight: bolder;
+	color:yellowgreen;
+}
+
+legend{
+	font-weight: bolder;
+	color:whitesmoke;
+	
+}
+
+
+
+@media screen and (min-width: 100px) and (max-width: 700px)
+{
+	body{
+	
+	margin:0px;
+padding:0px;
+width:100%;
+	padding-bottom: 0;
+	height: 100%;	
+	background: url('../img/w5.jpg');
+	background-size: auto auto;
+	background-repeat: repeat-y;
+	
+	
+	}
+	header{
+		height: 120px;
+	}
+	
+	
+	header h1
+	{
+		font-size: 17px;
+		margin-top: 1%;
+	}
+	
+	header img
+	{
+		margin-top: 10%;
+		height: 40px;
+	}
+	
+	#super_connecte, #super_connecte_social
+	{
+		margin: 0 auto;
+		width: 280px;
+		padding-right: 1%;
+		padding-left: 1%;
+		padding-top: 1%;
+		height: 400px;
+		max-height: 450px
+		/* background-color: rgba(8, 84, 29, 0.1); */
+		background-color: #333;
+		text-align: center;
+		margin-top: 10%;
+	}
+	
+	
+	#super_connecte_social
+	{
+		
+		width: 280px;
+		padding-right: 10%;
+		padding-left:10%;
+		
+		height: 200px;
+		max-height: 250px
+		
+		margin-top: 5%;
+	}
+
+}
+
+

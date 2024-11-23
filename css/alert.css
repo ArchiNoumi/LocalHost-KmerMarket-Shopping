@@ -1,0 +1,45 @@
+﻿
+
+#conclu{
+	height: 27px;	
+}
+
+#conclusion
+{
+	font-family: calibri;
+	font-size: 1.2em;
+	color: white;
+	font-weight: bolder;
+	background-color: black;
+	text-align: center;
+	padding-left : 2%;
+	padding-right: 2%;
+}
+
+.alert
+{
+	display: none;
+	color: blue;
+	font-weight: bold;
+	font-size: 1.0em;
+}
+
+
+
+@media screen and (min-width: 100px) and (max-width: 700px)
+{
+	
+	
+	header h1
+	{
+		font-size: 15px;
+	}
+	
+	header img
+	{
+		width: 80%;
+		height: 80%;
+	}
+}
+
+

@@ -1,0 +1,143 @@
+body
+{
+	padding-bottom: 0;
+	height: 100%;	
+	background-color: rgba(137, 165, 143, 1);
+	background-color: #fff;
+}
+
+th{
+	font-size : 1.2em;
+	font-family: calibri;
+	font-weight: bolder;
+}
+ td{
+	font-size : 1.1em;
+	font-family: 'ProximaNovaSoft-Semibold';
+	background-color: rgba(255,255,255,0.9);
+}
+
+th, td
+{
+	width: auto;
+	text-align: center;
+}
+
+th
+{
+	color: white;
+}
+
+#super_annonce p
+{
+	font-family: 'ProximaNovaSoft-Semibold','Arial Narrow';
+	font-size: 1.6em;
+	font-style: italic;
+	font-weight: bold;
+	color: black;
+	background-color: rgba(114,166,161, 0.1);
+	background-color: rgba(255,255,255,0.9);
+}
+
+th{
+	background-color: rgba(13,107,98,1);
+
+}
+
+
+#dynamique tr:hover
+{
+	/*background-color: rgba(20, 255, 20, 0.8);*/
+	
+	background-color: rgb(255,0,0);
+
+}
+
+ h1
+ {
+		font-family: 'ProximaNovaSoft-Semibold';
+ }
+
+
+
+#total
+{
+	font-size: 0.5em;
+	font-weight: bolder;
+}
+
+@media screen and (min-width: 501px) and (max-width: 1300px) 
+{
+	
+	#menu_gauche
+	{
+		margin-left: 150px;
+		width: 100%;
+		/*background-color: yellow;*/
+	}
+	
+	#menu_centre
+	{
+		margin-left: 0.5% ;
+		margin-right: 2% ;
+		width: 95% !important;
+	}
+	
+
+	
+	th, p#titre_tableau
+	{
+		font-size : 0.9em;
+	}
+	
+	td
+	{
+		font-size : 0.8em;
+		font-family: 'ProximaNovaSoft-Semibold';
+	}
+	
+}
+
+
+@media screen and (min-width: 100px) and (max-width: 500px) 
+{
+	#menu_gauche
+	{
+		margin-left: 150px;
+		width: 100%;
+		/*background-color: yellow;*/
+	}
+	
+	#menu_centre
+	{
+		margin-left: 0.5% ;
+		margin-right: 2% ;
+		width: 95% !important;
+	}
+	
+
+	
+	th, p#titre_tableau
+	{
+		font-size : 0.9em;
+	}
+	
+	td
+	{
+		font-size : 0.8em;
+		font-family: 'ProximaNovaSoft-Semibold';
+	}
+	
+	body
+	{
+	
+		margin:0px;
+		padding:0px;
+		width:100%;
+		padding-bottom: 0;
+		height: 100%;	
+		background: url('../img/w5.jpg');
+		background-size: auto auto;
+		background-repeat: repeat-y;
+	}
+}

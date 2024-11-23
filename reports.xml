@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<list>
+  <item>
+    <regionfr>Toutes</regionfr>
+    <regionEng>All</regionEng>
+    <idRegion>500</idRegion>
+  </item>
+  <item>
+    <regionfr>Adamaoua</regionfr>
+    <regionEng>Adamawa</regionEng>
+    <idRegion>1</idRegion>
+  </item>
+  <item>
+    <regionfr>Centre</regionfr>
+    <regionEng>Center</regionEng>
+    <idRegion>2</idRegion>
+  </item>
+  <item>
+    <regionfr>Est</regionfr>
+    <regionEng>East</regionEng>
+    <idRegion>3</idRegion>
+  </item>
+  <item>
+    <regionfr>Extr&#xEA;me-Nord</regionfr>
+    <regionEng>Far North</regionEng>
+    <idRegion>4</idRegion>
+  </item>
+  <item>
+    <regionfr>Littoral</regionfr>
+    <regionEng>Littoral</regionEng>
+    <idRegion>5</idRegion>
+  </item>
+  <item>
+    <regionfr>Nord</regionfr>
+    <regionEng>North</regionEng>
+    <idRegion>6</idRegion>
+  </item>
+  <item>
+    <regionfr>Nord-Ouest</regionfr>
+    <regionEng>North West</regionEng>
+    <idRegion>7</idRegion>
+  </item>
+  <item>
+    <regionfr>Ouest</regionfr>
+    <regionEng>West</regionEng>
+    <idRegion>8</idRegion>
+  </item>
+  <item>
+    <regionfr>Sud</regionfr>
+    <regionEng>South</regionEng>
+    <idRegion>9</idRegion>
+  </item>
+  <item>
+    <regionfr>Sud-Ouest</regionfr>
+    <regionEng>South West</regionEng>
+    <idRegion>10</idRegion>
+  </item>
+</list>
